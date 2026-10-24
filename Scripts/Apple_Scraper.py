@@ -4,7 +4,7 @@ import time
 
 # Example uses Boston-area ZIP 02143 and a standard iPhone Duo 256GB Star White SKU placeholder
 # Swap 'PART_NUMBER' out for the exact Apple Store configuration SKU once parsed from the buy page
-PART_NUMBER = "M_DUO_256_SW"  
+PART_NUMBER = "7.6-inch-display-256gb-star-white-att"  
 ZIP_CODE = "02143"
 
 url = f"https://apple.com{PART_NUMBER}&location={ZIP_CODE}"
